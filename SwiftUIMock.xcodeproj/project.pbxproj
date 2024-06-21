@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		115104AF2C0F52170079E4F6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115104AE2C0F52170079E4F6 /* ViewModel.swift */; };
+		115104B12C0F52460079E4F6 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115104B02C0F52460079E4F6 /* DateManager.swift */; };
 		11D161A72BD2AE42001C6B49 /* SwiftUIMockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D161A62BD2AE42001C6B49 /* SwiftUIMockApp.swift */; };
 		11D161A92BD2AE42001C6B49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D161A82BD2AE42001C6B49 /* ContentView.swift */; };
 		11D161AB2BD2AE43001C6B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D161AA2BD2AE43001C6B49 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		115104AE2C0F52170079E4F6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		115104B02C0F52460079E4F6 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
 		11D161A32BD2AE42001C6B49 /* SwiftUIMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D161A62BD2AE42001C6B49 /* SwiftUIMockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMockApp.swift; sourceTree = "<group>"; };
 		11D161A82BD2AE42001C6B49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				11D161A62BD2AE42001C6B49 /* SwiftUIMockApp.swift */,
 				11D161A82BD2AE42001C6B49 /* ContentView.swift */,
+				115104AE2C0F52170079E4F6 /* ViewModel.swift */,
+				115104B02C0F52460079E4F6 /* DateManager.swift */,
 				11D161AA2BD2AE43001C6B49 /* Assets.xcassets */,
 				11D161AC2BD2AE43001C6B49 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				11D161A92BD2AE42001C6B49 /* ContentView.swift in Sources */,
+				115104B12C0F52460079E4F6 /* DateManager.swift in Sources */,
+				115104AF2C0F52170079E4F6 /* ViewModel.swift in Sources */,
 				11D161A72BD2AE42001C6B49 /* SwiftUIMockApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
